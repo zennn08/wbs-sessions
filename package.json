@@ -23,5 +23,8 @@
     "prepack": "npm run build",
     "prepare": "npm run build",
     "typeorm": "typeorm-ts-node-commonjs"
-  }
+  },
+  "files": [
+    "lib/**/*"
+  ]
 }
