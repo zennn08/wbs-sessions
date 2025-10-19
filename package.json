@@ -20,6 +20,8 @@
   "scripts": {
     "start": "ts-node src/index.ts",
     "build": "tsup",
+    "prepack": "npm run build",
+    "prepare": "npm run build",
     "typeorm": "typeorm-ts-node-commonjs"
   }
 }
